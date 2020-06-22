@@ -1,0 +1,10 @@
+com\crms\pages\TasksPage.class
+com\crms\pages\DealsPage.class
+com\crms\base\BrowserInitialization.class
+com\crms\utils\CommonUtils.class
+com\crms\pages\CalendarPage.class
+com\crms\pages\ContactsPage.class
+com\crms\pages\LoginPage.class
+com\crms\base\TestBase.class
+com\crms\pages\CompaniesPage.class
+com\crms\pages\HomePage.class

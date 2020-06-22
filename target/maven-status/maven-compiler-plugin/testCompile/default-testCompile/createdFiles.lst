@@ -1,0 +1,5 @@
+com\crms\testScripts\CompanisPageTest.class
+com\crms\testScripts\ContactsPageTest.class
+com\crms\testScripts\dataProvider.class
+com\crms\testScripts\LoginPageTest.class
+com\crms\testScripts\HomePageTest.class

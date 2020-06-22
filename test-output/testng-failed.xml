@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.extent.reports.Reports"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.crms.testScripts.HomePageTest">
+        <methods>
+          <include name="verifyHomePageText"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crms.testScripts.HomePageTest -->
+      <class name="com.crms.testScripts.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="crmLogoImageTest"/>
+        </methods>
+      </class> <!-- com.crms.testScripts.LoginPageTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
